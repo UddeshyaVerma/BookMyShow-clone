@@ -1,0 +1,51 @@
+<div class="container-fluid p-2">
+    <div class="container px-0">
+        <div class="logo mt-0">
+            <img src="../../../assets/logo1.svg"  routerLink="/" alt="">
+        </div>
+        <ul class="nav">
+            <li>
+                <input class="search" type="search" />
+            </li>
+            <div class="side-nav-items">
+                <li class= "nav-link">
+                    <a class="city-dropdown text-white mt-5" >Mumbai<i class="bi bi-caret-down-fill"></i></a>
+                </li>
+                <li class="nav-link">
+                    <div [hidden]="this.service.ToggleNavbar()">
+                    <button class="btn btn-danger text-white"  routerLink="/LoginForm">Sign in</button>
+                </div>
+                <div [hidden]="!this.service.ToggleNavbar()">
+                    <button class="btn btn-danger text-white" (click)="onLogOut()" >Log Out</button>
+                </div>
+            </li>
+            <i class="bi bi-list"></i>
+            </div>
+            
+        </ul>
+    </div>
+</div>
+<div class="container-fluid small-nav ">
+    <div class="container px-0">
+        <ul class="nav ">
+            <li class="nav-link">Movies</li>
+            <li class="nav-link">Stream<span>new</span></li>
+            <li class="nav-link"></li>
+            <li class="nav-link">Events</li>
+            <li class="nav-link">Plays</li>
+            <li class="nav-link">Sports</li>
+            <li class="nav-link">Activites</li>
+            <li class="nav-link">Buzz</li>
+
+
+            <div class="small-nav-links">
+                <li class="nav-link">ListYourShow<span>new</span></li>
+                <li class="nav-link"></li>
+            <li class="nav-link">Coorporates</li>
+            <li class="nav-link">Offers</li>
+            <li class="nav-link">Gift Card</li>
+            </div>
+
+        </ul>
+    </div>
+</div>

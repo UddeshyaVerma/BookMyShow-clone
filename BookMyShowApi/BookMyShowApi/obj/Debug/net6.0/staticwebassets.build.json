@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "oguA5UPEwu5cmiTJKFW1OPyEuWwzBqQabVW1FSoiyeY=",
+  "Source": "BookMyShowApi",
+  "BasePath": "_content/BookMyShowApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookMyShowApi\\wwwroot",
+      "Source": "BookMyShowApi",
+      "ContentRoot": "D:\\asp.net Task\\bookmyshow\\BookMyShowApi\\BookMyShowApi\\wwwroot\\",
+      "BasePath": "_content/BookMyShowApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\asp.net Task\\bookmyshow\\BookMyShowApi\\BookMyShowApi\\wwwroot\\Upload\\Untitled.jpg",
+      "SourceId": "BookMyShowApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\asp.net Task\\bookmyshow\\BookMyShowApi\\BookMyShowApi\\wwwroot\\",
+      "BasePath": "_content/BookMyShowApi",
+      "RelativePath": "Upload/Untitled.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Untitled.jpg"
+    }
+  ]
+}

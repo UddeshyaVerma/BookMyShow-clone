@@ -1,0 +1,153 @@
+.carousel {
+  // height: 300px;
+  // background-color: #000000;
+  img {
+    margin: 40px 0px 0px 100px;
+    border-radius: 12px;
+    height: 400px;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+
+    h1 {
+      margin: 60px 0px 0px 20px;
+      color:#ffffff;
+    }
+
+    span {
+      font-size: 30px;
+      font-weight: 500;
+      color:#ffffff;
+    }
+
+    p {
+      margin: 0px 0px 0px 20px;
+      font-size: 15px;
+      font-weight: 500;
+      color:#ffffff;
+    }
+
+    .inside-box {
+      display: flex;
+      flex-direction: row;
+      margin : 30px 0px 0px 20px;
+      padding:10px 10px 10px 10px;
+      border: 1px solid #ffffff;;
+      border-radius: 10px;
+
+      .inside-box-text {
+          
+        
+        h5 {
+          margin: 0px 0px 0px 20px;
+          color:#ffffff;
+        }
+
+        p {
+            font-size: 12px;
+            color:#ffffff;
+        }
+
+        
+      }
+      .inside-box-button {
+            
+        button {
+          height: 35px;
+          margin:5px 0px 0px 15px;
+          border-radius: 2px;
+          background-color:#e7e7e7;
+          font-size: 12px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .movie-type {
+        margin:20px 0px 0px 20px;
+        
+        a {
+            // margin:0px 0px 0px 20px;
+            border-radius: 2px;
+        background-color:#e7e7e7;
+        font-size: 12px;
+        font-weight: 600;
+        }
+
+        .three {
+            margin:0px 0px 0px 20px;
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        margin: 8px 0px 0px 0px;
+        
+        p {
+            margin:0px 0px 0px 20px;
+            font-size: 17px;
+        }
+    }
+
+    .booking {
+        margin:20px 0px 0px 20px;
+        height: 50px ;
+        width: 180px;
+        border-radius: 10px;
+    }
+  }
+}
+
+.cast-crew {
+
+    img {
+      border-radius: 50%;
+      padding:10px 30px 10px 30px;
+      height: 150px;
+    }
+}
+
+.cast {
+    border-top: 1px solid #9C9FA2;
+    
+    h3 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .cast-wrapper {
+        display: flex;
+    flex-direction: row;
+    }
+
+   
+}
+
+.crew {
+    border-top: 1px solid #9C9FA2;
+
+     
+    h3 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .crew-wrapper {
+        display: flex;
+    flex-direction: row;
+    }
+}
+
+.content {
+  
+  h4 {
+
+    margin:80px 0px 0px 0px;
+  }
+
+  p {
+    margin:20px 0px 60px 0px;
+  }
+}

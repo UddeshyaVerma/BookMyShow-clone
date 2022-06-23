@@ -1,0 +1,73 @@
+<app-header></app-header>
+<div class="container-fluid px-0 main-body">
+<div class="container-fluid jumbotron">
+  <div class="container px-1">
+    <h1>{{ this.service.movie.title }}</h1>
+    <p>
+      <span class="rating">U/A</span> <i class="bi bi-heart-fill"></i><b>79%</b> <span class="genre">COMEDY</span><span class="genre">HORROR</span
+      ><span class="release-date">{{ this.service.movie.releaseDate }}</span><span class="duration"><i class="bi bi-clock-history mr-2"></i>{{ this.service.movie.duration }}</span>
+    </p>
+  </div>
+</div>
+
+<div class="container-fluid page-body">
+  <div class="container bg-white px-0">
+    <div class="side-options">
+      <p><i class="bi bi-circle-fill text-success icons"></i>AVAILABLE</p>
+      <p><i class="bi bi-circle-fill text-danger icons"></i>FAST FILLING</p>
+      <p><i class="bi bi-badge-cc icons text-success"></i>SUBTITLE LANGUAGE</p>
+    </div>
+    <div class="card px-0">
+        <div class="cinema">
+        <p><i class="bi bi-heart"></i><b> Movietime: The Hub, Goregaon</b></p>
+        <p class="food-ticket"><span class="text-success"><i class="bi bi-phone"></i> M-Ticket</span> <span class="text-warning"><i class="bi bi-egg-fried"></i>Food and Beverage</span></p>
+        </div>
+        <div class="button-show">
+          <button class="btn text-danger" (click)="EventHandler('Movietime: The Hub, Goregaon')"> 4:30 PM</button>
+          <button class="btn text-success" (click)="EventHandler('Movietime: The Hub, Goregaon')"> 7:30 PM</button>
+          <button class="btn text-success" (click)="EventHandler('Movietime: The Hub, Goregaon')"> 12:30 PM</button>
+          <p class="cancel"><i class="bi bi-circle-fill text-warning"></i>Cancellation Available</p>
+        </div>
+    </div>
+    <div class="card px-0">
+      <div class="cinema">
+      <p><i class="bi bi-heart"></i><b>CinemaStar: High Street Mall, Thane
+      </b></p>
+      <p class="food-ticket"><span class="text-success"><i class="bi bi-phone"></i> M-Ticket</span> <span class="text-warning"><i class="bi bi-egg-fried"></i>Food and Beverage</span></p>
+      </div>
+      <div class="button-show">
+        <button class="btn text-success" (click)="EventHandler('CinemaStar: High Street Mall, Thane')"> 4:30 PM</button>
+        <button class="btn text-success"(click)="EventHandler('CinemaStar: High Street Mall, Thane')"> 7:30 PM</button>
+        <button class="btn text-danger" (click)="EventHandler('CinemaStar: High Street Mall, Thane')"> 12:30 PM</button>
+        <p class="cancel"><i class="bi bi-circle-fill text-warning"></i>Cancellation Available</p>
+      </div>
+  </div>
+  <div class="card px-0">
+    <div class="cinema">
+    <p><i class="bi bi-heart"></i><b> Cinepolis: VIP Viviana Mall, Thane
+    </b></p>
+    <p class="food-ticket"><span class="text-success"><i class="bi bi-phone"></i> M-Ticket</span> <span class="text-warning"><i class="bi bi-egg-fried"></i>Food and Beverage</span></p>
+    </div>
+    <div class="button-show">
+      <button class="btn text-danger" (click)="EventHandler('Cinepolis: VIP Viviana Mall, Thane')"> 4:30 PM</button>
+      <button class="btn text-success " (click)="EventHandler('Cinepolis: VIP Viviana Mall, Thane')"> 7:30 PM</button>
+      <button class="btn text-success" (click)="EventHandler('Cinepolis: VIP Viviana Mall, Thane')"> 12:30 PM</button>
+      <p class="cancel"><i class="bi bi-circle-fill text-warning"></i>Cancellation Available</p>
+    </div>
+</div>
+<div class="card px-0">
+  <div class="cinema">
+  <p><i class="bi bi-heart"></i><b>Cinepolis: Viviana Mall, Thane</b></p>
+  <p class="food-ticket"><span class="text-success"><i class="bi bi-phone"></i> M-Ticket</span> <span class="text-warning"><i class="bi bi-egg-fried"></i>Food and Beverage</span></p>
+  </div>
+  <div class="button-show">
+    <button class="btn text-success" (click)="EventHandler('Cinepolis: Viviana Mall, Thane')"> 4:30 PM</button>
+    <button class="btn text-danger" (click)="EventHandler('Cinepolis: Viviana Mall, Thane')"> 7:30 PM</button>
+    <button class="btn text-success" (click)="EventHandler('Cinepolis: Viviana Mall, Thane')"> 12:30 PM</button>
+    <p class="cancel"><i class="bi bi-circle-fill text-warning"></i>Cancellation Available</p>
+  </div>
+</div>
+  </div>
+</div>
+<app-footer></app-footer>
+</div>

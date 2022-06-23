@@ -1,0 +1,36 @@
+.container {
+
+    h1 {
+        text-align: center;
+        margin: 50px 0px 0px 0px;
+    }
+}
+
+.card {
+
+    width:600px;
+    margin:100px auto;
+    padding:20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #333545;
+    color:#ffffff;
+
+    .text-data{
+        padding:20px 0px 20px 0px;
+
+        img {
+            margin:80px 0px 0px 0px;
+        }
+    }
+
+    .img {
+         margin:0px 0px 0px 50px;
+
+         img {
+            border-radius: 50%;
+         }
+        
+    }
+}
+

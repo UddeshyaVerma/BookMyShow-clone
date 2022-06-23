@@ -1,0 +1,23 @@
+
+<app-header></app-header>
+<app-carousel></app-carousel>
+<div class="container">
+  <div class="banner">
+    <h3>Recommended Movies</h3>
+  </div>
+
+  <div class="card-wrapper">
+  <div *ngFor="let item of service.list">
+      <div class="card" >
+        <img src="{{item.imageURL}}" (click)="movieHandler(item.id)" alt="">
+        <p>{{item.title}}</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="img-banner">
+    <img src="../../assets/banner.avif" alt="" />
+  </div>
+</div>
+<app-category></app-category>
+<app-footer></app-footer>

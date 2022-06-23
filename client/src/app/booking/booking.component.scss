@@ -1,0 +1,139 @@
+.main-body {
+    background-color: #f2f2f2;
+}
+
+.jumbotron {
+    background-color: #333545;
+    color:#ffffff;
+
+    h1 {
+        padding: 40px 0px 5px 0px;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 14px;
+        padding:0px 0px 30px 0px;
+        
+    }
+
+    .bi-heart-fill {
+        color:#FF0000;
+        margin: 0px 5px 0px 5px ;
+    }
+
+    .release-date {
+        margin:0px 10px 0px 10px;
+    }
+
+    .bi-clock-history {
+        margin:0px 5px 0px 0px; 
+        
+    }
+
+    .rating {
+        padding:5px 2px 5px 2px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        font-size: 10px;
+        font-weight: bold;
+        margin:0px 10px 0px 0px; 
+    }
+
+    
+
+    .genre {
+        color:#e7e7e7;
+        padding:0px 8px 0px 8px;
+        font-size: 12px; 
+        border-radius: 15px ;
+        border: 1px solid #e7e7e7;
+        margin:0px 5px 0px 5px; 
+
+    }
+}
+
+
+.side-options {
+    display: flex;
+    flex-direction: row;
+    float:right;
+    
+
+    p {
+        padding:10px 10px 10px 10px;
+        font-size: 12px;
+    }
+}
+
+.page-body {
+    margin: 10px 0px 0px 0px;
+    
+
+}
+
+.icons {
+    margin:0px 8px 0px 0px;
+
+
+}
+
+.card {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0px;
+    border-bottom: 0px;
+
+    .cinema {
+        margin:10px 0px 0px 40px;
+
+        .bi-heart {
+            margin:0px 10px 0px 0px;
+        }
+
+        .bi-phone {
+            margin:0px 2px 0px 15px; 
+        }
+
+        .bi-egg-fried {
+            margin:0px 2px 0px 15px; 
+        }
+
+        .food-ticket {
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+       
+    }
+
+    .button-show {
+        margin:20px 0px 0px 80px;
+
+        .btn {
+            margin:0px 0px 0px 40px;
+            border:1px solid #000;
+            border-radius: 5px;
+            padding: 5px 20px 5px 20px;
+            font-size: 14px;
+            // color:#00FF00;
+            font-weight: 500;
+        }
+
+        .cancel {
+            margin:15px 0px 10px 40px ;
+            font-size: 12px;
+            .bi {
+                font-size: 12px;
+                margin:0px 8px 0px 0px; 
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+<app-header></app-header>
+<div
+  id="carouselExampleSlidesOnly"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ this.service.movie.imageURL }}" class="d-block" alt="..." />
+      <div>
+        <h1 class="text-white">{{ this.service.movie.title }}</h1>
+        <p><span><i class="bi bi-heart-fill text-danger"></i>51k </span>are interested</p>
+        <div class="inside-box">
+          <div class="inside-box-text">
+            <h5>Releasing on {{ this.service.movie.releaseDate }}</h5>
+            <p>Mark interested to know when bookings open</p>
+          </div>
+          <div class="inside-box-button">
+            <button class="btn">I'm Interested</button>
+          </div>
+        </div>
+        <div class="movie-type">
+          <a href="" class="btn">2D</a>
+          <a href="" class="btn three">Telugu,Hindi,Tamil</a>
+        </div>
+        <div class="info">
+          <p>
+            {{ this.service.movie.duration }}
+            <span>.</span> Action,Drama,Historical,Romantic <span>.</span> U/A
+          </p>
+        </div>
+        <button class="btn booking btn-danger" (click)="EventHandler()">Book Tickets</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container px-0 content">
+  <h4>About the Movie</h4>
+  <p>{{ this.service.movie.description }}</p>
+</div>
+
+<div class="container px-0 mt-4 cast-crew">
+  <div class="cast">
+    <h3>Cast</h3>
+    <div class="cast-wrapper">
+      <img src="../../assets/chris.avif" alt="">
+      <img src="../../assets/bryce-dallas-howard.avif" alt="">
+      </div>
+    </div>
+  <div class="crew">
+
+    <h3>Crew</h3>
+    <div class="crew-wrapper">
+      <div class="crew-card">
+        <img src="../../assets/anees bazmee.avif" alt="" />
+        <img src="../../assets/bhushankumar.avif" alt="" />
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

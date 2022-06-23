@@ -1,0 +1,32 @@
+
+<div class="container">
+    <form [formGroup]="this.service.formModel" autocomplete="off" (submit)="onSubmit()">
+        <div class="mb-3">
+          <label for="userName" class="form-label">User Name</label>
+          <input type="text" class="form-control" id="userName" formControlName="UserName">
+        </div>
+        <div class="mb-3">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" formControlName="FullName">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" formControlName="Email">
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="phone" formControlName="Phone">
+          </div>
+          <div class="mb-3">
+            <label for="city" class="form-label">city</label>
+            <input type="text" class="form-control" id="city" formControlName="City">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" formControlName="Password">
+        </div>
+       
+        
+        <button type="Submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>

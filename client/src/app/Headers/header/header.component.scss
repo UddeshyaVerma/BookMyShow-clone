@@ -1,0 +1,88 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.container-fluid {
+  height: 70px;
+  background-color: #333545;
+
+  .logo {
+
+    img {
+      margin:10px 10px 0px 20px;
+      height: 40px;
+      width:150px;
+    }
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .bi-list {
+    font-size: 30px;
+    color:#ffffff;
+  }
+
+  .bi-caret-down-fill {
+    font-size: 12px;
+    margin:0px 5px 0px 5px 
+
+  }
+
+}
+
+
+.search {
+  border-radius: 5px;
+  margin: 8px 0px 0px 0px;
+  width: 500px;
+  height: 40px;
+}
+
+.side-nav-items {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 0px 320px;
+  text-decoration: none;
+
+  .city-dropdown {
+    margin:80px 0px 0px 0px;
+    text-decoration: none;
+    padding:0px 0px 0px 0px;
+  }
+
+  button {
+    font-size: 12px;
+    height: 30px;
+    width: 70px;
+  }
+}
+
+.small-nav {
+    height:40px;
+    background-color: #222539;
+    .nav {
+
+      margin:0px 0px 0px 20px;
+      .nav-link {
+        font-size: 14px;
+        font-weight: 500;
+        padding:10px 8px 10px 8px; 
+        color:#cccccc;
+      }
+    }
+    .small-nav-links {
+        margin:0px 0px 0px 450px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    span {
+      color: red;
+      font-size: 10px;
+     position: absolute;
+    //  padding:20px;
+    // margin: 0px 5px 0px 5px ;
+    }
+}
